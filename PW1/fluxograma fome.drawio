@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.3" pages="2">
   <diagram name="Página-1" id="4endjMXpRl2KW4k6yDfQ">
     <mxGraphModel dx="1106" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -36,6 +36,41 @@
         </mxCell>
         <mxCell id="LVvVDmVjpDxcbpTVOdh3-12" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="fim" vertex="1">
           <mxGeometry height="60" width="100" x="390" y="510" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_dTttqAypFjgHmroyDKb" name="Página-2">
+    <mxGraphModel dx="1106" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KVoNdf_4Q4psqh4R9z5r-8" edge="1" parent="1" source="KVoNdf_4Q4psqh4R9z5r-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KVoNdf_4Q4psqh4R9z5r-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KVoNdf_4Q4psqh4R9z5r-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="inicio" vertex="1">
+          <mxGeometry height="60" width="100" x="427" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KVoNdf_4Q4psqh4R9z5r-9" edge="1" parent="1" source="KVoNdf_4Q4psqh4R9z5r-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KVoNdf_4Q4psqh4R9z5r-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KVoNdf_4Q4psqh4R9z5r-2" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="ler numero A" vertex="1">
+          <mxGeometry height="60" width="146" x="404" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KVoNdf_4Q4psqh4R9z5r-10" edge="1" parent="1" source="KVoNdf_4Q4psqh4R9z5r-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KVoNdf_4Q4psqh4R9z5r-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KVoNdf_4Q4psqh4R9z5r-3" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="dobro= A*2" vertex="1">
+          <mxGeometry height="60" width="100" x="427" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="KVoNdf_4Q4psqh4R9z5r-11" edge="1" parent="1" source="KVoNdf_4Q4psqh4R9z5r-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KVoNdf_4Q4psqh4R9z5r-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KVoNdf_4Q4psqh4R9z5r-4" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="mostrar dobro" vertex="1">
+          <mxGeometry height="60" width="126" x="414" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="KVoNdf_4Q4psqh4R9z5r-5" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="fim" vertex="1">
+          <mxGeometry height="60" width="100" x="427" y="420" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
