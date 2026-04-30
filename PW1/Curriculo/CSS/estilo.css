@@ -106,7 +106,7 @@ hr{
 }
 
 figure{
-    width: 105px;
+    width: 120px;
     height: 105;
     background: var(--cor-branca);
     border-radius: 75px;
@@ -116,9 +116,9 @@ figure{
 }
 
 img{
-    width: 85px;
+    width: 70px;
     position: relative;
-    margin-left: 15px;
+    margin-left: 25px;
     margin-right: 14px;
 }
 
