@@ -14,4 +14,22 @@ botao.addEventListener("click", ()=> {
 } else {
     localStorage.setItem("tema", "light");
 }
-});
+const botao= document.getElementById("tema");
+)};
+const updateButtonIcon=() =>{
+    if(!botao) return;
+    const darkMode= document.body.classList.constains("dark");
+    botsao.textContent= darMode ? "☀️" : "🌑";
+    botao.title= darkMode? "mudar para modo claro": "mudar para modo escuro";
+};
+
+const temaAtual= localStorage.getItem("tema")==="dark" ? "dark": "light";
+if (temaAtual==="dark"){
+    document.body.classList.add("dark");
+}
+
+updateButtonIcon();
+
+if(botao){
+    botao.addEventListener("click",())
+}
