@@ -8,7 +8,7 @@
     --cor-borda:#cecece;
     --cor-sombra:#ccc;
     --cor-branca:#fff;
-    --bg-image: url('../imagens/fundo.jpg');
+    --bg-image: url('../imagens/monitoramento.png');
     --overlay-opacity: 0.7;
 
     --fonte-padrao: Arial, Tahoma, Verdana;
@@ -26,13 +26,13 @@
     line-height: var(--line-base);
 }
 
-html,body{
+html, body{
     height: 100%;
     background:
     linear-gradient(
         rgba(255, 255, 255, var(--overlay-opacity)),
         rgba(255, 255, 255, var(--overlay-opacity))
-    )
+    ),
     var(--bg-image)no-repeat center center fixed;
     background-size:cover; 
 }
