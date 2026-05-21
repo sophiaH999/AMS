@@ -7,6 +7,8 @@
     --cor-branco:#fff;
     --cor-borda:#cecece;
     --cor-sombra:#ccc;
+    --bg-image:url('../imagens/imagens');
+    --overlay-opacity:0.7;
 }
 
 /*MODO ESCURO*/
@@ -23,9 +25,15 @@
     transition: all 0.5s ease;
 }
 
-body{
-    background: var(--cor-fundo);
-    color:var(--cor-texto);
+.dark html,
+.dark body{
+    background:
+    linear-gradient(
+        rgba( 0, 0,0, var(--overlay-opacity)),
+        rgba(0, 0, 0, var(--overlay-opacity))
+    ),
+    var(--bg-image) no-repeat center center fixed;
+    background-size: cover;
 }
 
 header{
