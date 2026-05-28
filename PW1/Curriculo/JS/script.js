@@ -1,48 +1,47 @@
-const botao = document.getElementById("tema");
-
-
-if(localStorage.getItem("tema")==="dark"){
-    document.body.classList.add("dark");
-}
-
-
-botao.addEventListener("click", ()=> {
-    document.body.classList.toggle("dark");
-
-    if(document.body.classList.contains("dark")){
-        localStorage.setItem("tema", "dark");
-} else {
-    localStorage.setItem("tema", "light");
- }
-});
-
-
 // const botao = document.getElementById("tema");
 
-// const updateButtonIcon = () => {
-//     if(!botao) return;
-//     const darkMode = document.body.classList.constains("dark");
-//     botao.textContent = darkMode ? "☀️" : "🌑";
-//     botao.title = darkMode ? "mudar para modo claro" : "mudar para modo escuro";
-// };
 
-// const temaAtual = localStorage.getItem("tema") === "dark" ? "dark": "light";
-// if (temaAtual === "dark"){
+// if(localStorage.getItem("tema")==="dark"){
 //     document.body.classList.add("dark");
 // }
 
-// updateButtonIcon();
 
-// if(botao){
-//     botao.addEventListener("click", () => {
-//         document.body.classList.toggle("dark");
+// botao.addEventListener("click", ()=> {
+//     document.body.classList.toggle("dark");
 
-//         if(document.body.classList.constains("dark")){
-//             localStorage.setItem("tema", "dark");
-//         }else{
-//             localStorage.setItem("tema", "light");
-//         }
+//     if(document.body.classList.contains("dark")){
+//         localStorage.setItem("tema", "dark");
+// } else {
+//     localStorage.setItem("tema", "light");
+//  }
+// });
 
-//         updateButtonIcon();
-//     });
-// }
+
+const botao = document.getElementById("tema");
+
+const updateButtonIcon = () => {
+    if (!botao) return;
+    const darkMode = document.body.classList.contains("dark");
+    botao.textContent = darkMode? "☀️" : "🌑";
+    botao.title = darkMode ? "mudar para modo claro" : "mudar para modo escuro";
+};
+
+const temaAtual=localStorage.getItem("tema") === "dark" ? "dark" : "light";
+if(temaAtual==="dark"){
+    document.body.classList.add("dark");
+}
+updateButtonIcon();
+
+if(botao){
+    botao.addEventListener("click", () =>{
+        document.body.classList.toggle("dark");
+
+        if(document.body.classList.contains("dark")){
+            localStorage.setItem("tema","dark");
+        }else{
+            localStorage.setItem("tema","light");
+        }
+
+        updateButtonIcon()
+    });
+}
