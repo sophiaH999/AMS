@@ -1,8 +1,9 @@
 :root{
-    --cor-principal:#056192;
-    --cor-hover:#00bfff;
+    --cor-principal:#197cb1;
+    --cor-hover:#8acce4;
     --cor-voltar:#01368c;
-    --cor-fundo:#ffffff;
+    --cor-fundo:#a0baca;
+    --cor-fonte:#ffffff;
     --cor-texto:#333;
 }
 
@@ -23,7 +24,7 @@ header{
 }
 
 header h1{
-    color: var(--cor-fundo);
+    color: var(--cor-fonte);
 }
 
 /*GERAL*/
@@ -44,7 +45,7 @@ main{
 
 /*MENU*/
 nav a{
-    color: var(--cor-fundo);
+    color: var(--cor-fonte);
     text-decoration: none;
     margin-left: 20px;
     font-weight: bold;
@@ -97,7 +98,7 @@ footer{
 
 /*CARDS*/
 .card{
-    background-color: var(--cor-fundo);
+    background-color: var(--cor-fonte);
     margin-bottom: 40px;
     padding: 30px;
     border-radius: 12px;
