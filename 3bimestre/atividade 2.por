@@ -1,18 +1,28 @@
 programa {
   funcao inicio() {
-   inteiro soma,numero
+    inteiro idade
+    inteiro quantidade=0
+    inteiro soma=0
+    inteiro maior21=0
+    real media
+    cadeia continuar="s"
+    
+    enquanto(continuar == "s" ou continuar =="S"){
+      escreva("Digite a idade: ")
+      leia(idade)
+      soma=soma+idade
+      quantidade=quantidade+1
 
-   numero = 1
-   soma = 0
-
-   enquanto (numero < 1000) {
-      se ((numero % 3 == 0) ou (numero % 5 == 0)) {
-         soma = soma + numero
+      se(idade>=21){
+        maior21=maior21+1
       }
-      numero = numero + 1
-   }
+      escreva("Deseja continuar? (s/n) : ")
+      leia(continuar)
+    }
+    media=soma/quantidade
 
-   escreva("A soma dos múltiplos de 3 ou 5 abaixo de 1000 é: ", soma)
-
+    escreva("\n quantidade de idades: ",quantidade )
+    escreva("\n idades maiores que 21: ",maior21)
+    escreva("\n a média das idades: ", media)
   }
 }
