@@ -1,33 +1,27 @@
 programa {
   funcao inicio() {
-    inteiro maior , menor, numero
+    inteiro numero, opcao, dobro
 
-   escreva("Digite um número inteiro (negativo para encerrar): ")
-   leia(numero)
+    escreva("Digite um numero: ")
+    leia(numero)
 
-   se (numero >= 0 ){
-      maior = numero
-      menor = numero
-   
+    escreva("\n Escolha uma das opções")
+    escreva("\n 1- Mostrar número digitado")
+    escreva("\n 2- Mostrar o dobro desse número")
+    escreva("\n Digite a opção: ")
+    leia(opcao)
+    enquanto(opcao < 1 ou opcao > 2){
+      escreva("\n opção invalida")
+      escreva("\n digite outra opção: ")
+      leia(opcao)
+    }
+    se(opcao==1){
+      escreva("o número digitado é: ", numero)
+    }senao {
+      dobro=numero*2
+      escreva("O dobro do número digitado é: ", dobro)
+    }
+    
 
-      enquanto (numero >= 0){
-         se (numero > maior){
-            maior = numero
-         }
-      
-
-         se (numero < menor) {
-            menor = numero
-         }
-
-         escreva("Digite outro número (negativo para encerrar): ")
-         leia(numero)
-  }
-
-      escreva("\n Maior número lido: ", maior)
-      escreva("\n Menor número lido: ", menor)
-   }senao{
-      escreva("Nenhum número válido foi informado.")
-   }
   }
 }
