@@ -6,7 +6,7 @@
     <title>Cadastro</title>
     <meta name="description"content="formulario de contato dev">
     <meta name="keywords"content="HTML,CSS,formulario, contato">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/reset.css">
 </head>
 <body>
     <main>
@@ -43,6 +43,7 @@
                     <option value="junior">Junior</option>
                     <option value="pleno">Pleno</option>
                     <option value="senior">Senior</option>
+            </div>
                 </select>
                 <fieldset class="grupo">
                     <legend><strong>selecione as tecnologias que utiliza:</strong></legend>
@@ -61,14 +62,27 @@
                     <label> 
                         <input type="checkbox" name="tecnologia" value="csharp">C#
                     </label>
-                    <label ></label>
-
+                    <label >
+                        <input type="checkbox" name="tecnologia" value="python">Python
+                    </label>
+                    <label>
+                        <input type="checkbox" name="tecnologia" value="java">Java
+                    </label>
                 </fieldset>
+                <div class="campo">
+                    <label for="experiencia"><strong>conte um pouco da sua experiência</strong></label>
+                    <textarea name="experiencia" id="experiencia" rows="6" cols="47" placeholder="Descreva sua experiencia profissional..."></textarea>
+                </div>
+                <div class="button">
+                    <button class="button" type="submit">Concluido</button>
 
-            </div>
+                </div>
 
         </form>
     </main>
+    <footer class="footer-center">
+        <p>&copy; 2026 Cadastro de desenvolvedores. Todos os direitos reservados.</p>
+    </footer>
     
 </body>
 </html>
