@@ -72,3 +72,26 @@ body{
 .botao:hover{
     background-color: #48116d;
 }
+
+.flutuante{
+    font-size: 100px;
+    color:#58e6ff;
+    margin: 60px auto;
+    animation: flutuar 3s ease-in-out infinite ;
+}
+
+@keyframes flutuar{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+p{
+    color: #b9b9d0;
+}
